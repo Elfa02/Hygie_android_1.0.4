@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/patient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:text="Patient" />
+
+    <TextView
+        android:id="@+id/horaireConsult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/patient"
+        android:layout_centerHorizontal="true"
+        android:layout_x="131dp"
+        android:layout_y="25dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/objet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/patient"
+        android:layout_below="@+id/patient"
+        android:layout_x="15dp"
+        android:layout_y="25dp"
+        android:textColor="@android:color/black"
+        tools:text="Objet" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="62dp"
+        android:layout_height="57dp"
+        android:layout_x="274dp"
+        android:layout_y="-1dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/callimg" />
+
+</AbsoluteLayout>
