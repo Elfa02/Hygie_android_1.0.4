@@ -186,6 +186,54 @@ public class DataPersistance extends SQLiteOpenHelper {
     public void printAllMedecins(){
 
     }
+
+
+    //Hash
+/*
+
+   Log.i ("Persistance onCreate", "M�decin");
+
+    M�decin m = new M�decin("karp", "32ac991d88d626c75cf319149ca6f7865076ae64")
+
+    addM�decin(m,db);
+
+}
+
+
+
+    private void addUsers(Users u, SQLiteDatabase db) {
+
+        db.beginTransaction();
+
+        try {
+
+
+
+            ContentValues values = new ContentValues();
+
+
+
+            values.put(Medecin_Id,  u.getId());
+
+            values.put(Medecin_mdp, u.getPassword());
+
+            db.insertOrThrow(TABLE_Medecin, null, values);
+
+            db.setTransactionSuccessful();
+
+        } catch (Exception e) {
+
+            Log.d(TAG, "Error while trying to add post to database");
+
+        } finally {
+
+            db.endTransaction();
+
+        }
+
+    }
+
+    */
 /*
     public Module getModule(String sigle){
         Cursor cur = db.rawQuery("SELECT * FROM " + TABLE_MODULES +
